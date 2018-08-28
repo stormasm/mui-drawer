@@ -85,5 +85,3 @@ const ShowChapterSection = ({ match }) => (
 For the details on how to refactor the code from Next.js
 to Create React App [review code.md](https://github.com/stormasm/mui-drawer/blob/master/code.md)
 for more details on how to refactor the Material-UI code.
-
-180818a
