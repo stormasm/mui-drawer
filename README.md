@@ -54,7 +54,7 @@ Inside this file are two other important functions.
 
 These 3 pieces of code are ported over to their own file
 in the sample code called
-[Drawer](https://github.com/stormasm/mui-drawer/blob/master/v2/src/containers/Drawer.js)
+[Drawer](https://github.com/stormasm/mui-drawer/blob/master/v1/src/containers/Drawer.js)
 
 This code is the basis for the refactor.
 
@@ -67,7 +67,7 @@ in a book and a **Section** inside of the chapter.
 Along with the **pages** object and the two functions
 mentioned above this code is the other piece of logic
 located inside the file
-[Drawer](https://github.com/stormasm/mui-drawer/blob/master/v2/src/containers/Drawer.js)
+[Drawer](https://github.com/stormasm/mui-drawer/blob/master/v1/src/containers/Drawer.js)
 that completes the refactor.
 
 
