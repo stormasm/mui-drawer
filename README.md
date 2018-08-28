@@ -27,7 +27,7 @@ This section will outline the details of how to transform the
 from Next.js to Create-React-App through a simple code
 example.  
 
-## The AppDrawer Concept
+### The AppDrawer Concept
 
 Currently the Material-UI docs
 [AppDrawer](https://github.com/mui-org/material-ui/blob/master/docs/src/modules/components/AppDrawer.js)
@@ -44,7 +44,7 @@ one must remove references to the Next-js Link inside the
 and replace it with the React-Router
 [Link](https://reacttraining.com/react-router/web/api/Link).
 
-## The AppDrawer Details
+### The AppDrawer Details
 
 If you take a look at the Material-UI docs and open the drawer
 you will notice that all of the content inside the drawer is defined
@@ -62,7 +62,7 @@ in the sample code called
 
 This code is the basis for the refactor.
 
-## The AppDrawer Code
+### The AppDrawer Code
 
 This is a demo that allows you to navigate inside
 the drawer and show an example delineating a **Chapter**
