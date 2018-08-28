@@ -1,6 +1,10 @@
 
 ## mui-drawer
 
+This demo displays the same concept as
+[mui-menu]() except the navigation is a function of **drawers** instead of
+[menus](https://material-ui.com/demos/menus/).
+
 The Material-UI [docs](https://material-ui.com/)
 give an example of using a Drawer to navigate
 to different parts of the documentation.  The
