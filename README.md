@@ -10,12 +10,10 @@ for its routing.  This demo shows how to use
 [react-router](https://reacttraining.com/react-router/web/api/Link)
 for its routing instead of [Next.js](https://github.com/zeit/next.js#with-link).
 
-There are two standard ways to navigate inside Material-UI; **[drawers](https://material-ui.com/demos/drawers/)** and **[menus](https://material-ui.com/demos/menus/)**.  The software for the [AppDrawer](https://github.com/mui-org/material-ui/blob/master/docs/src/modules/components/AppDrawer.js) is located inside Material-UI **[docs](https://github.com/mui-org/material-ui/tree/master/docs#material-ui-docs)** and is not part of a released NPM repo (yet).  Therefore, I have broken out the drawer code into this demo to show how to use it standalone in the context of Create React App instead of Next.js which is how it is currently implemented.  The key minor change or refactor is to use
+There are two standard ways to navigate inside Material-UI; **[drawers](https://material-ui.com/demos/drawers/)** and **[menus](https://material-ui.com/demos/menus/)**.  The software for the **AppDrawer** is located inside Material-UI **[docs](https://github.com/mui-org/material-ui/tree/master/docs#material-ui-docs)** and is not part of a released NPM repo (yet).  Therefore, I have broken out the drawer code into this demo to show how to use it standalone in the context of Create React App instead of Next.js which is how it is currently implemented.  The key minor change or refactor is to use
 [React Router](https://github.com/ReactTraining/react-router) instead of Next.js for the routing.
 
-If you look at the Material-UI docs the main piece of Navigational software is the
-[AppDrawer](https://github.com/mui-org/material-ui/blob/master/docs/src/modules/components/AppDrawer.js)
-which is derived from
+If you look at the Material-UI docs the main piece of Navigational software is the **AppDrawer** which is derived from
 [Drawer](https://material-ui.com/api/drawer/).
 
 This section is about refactoring AppDrawer from Next.js to Create-React-App
